@@ -1,0 +1,136 @@
+/* src/pages/Orcamento.module.css */
+
+.orcamentoPage {
+  /* Remove a largura máxima para ocupar a tela inteira */
+  width: 100%;
+  box-sizing: border-box; /* Garante que o padding não adicione largura extra */
+  padding: 30px 4%; /* Adiciona um padding lateral responsivo */
+}
+
+.header {
+  text-align: center;
+  margin-bottom: 40px;
+  padding-bottom: 20px;
+  border-bottom: 1px solid #e5e5e5;
+}
+
+.header h1 {
+  margin: 0 0 10px 0;
+  font-size: 2.5rem; /* Título mais impactante */
+  color: var(--text-primary);
+}
+
+.header p {
+  margin: 0;
+  color: var(--text-secondary);
+  font-size: 1.2rem;
+  max-width: 600px; /* Limita a largura do parágrafo para melhor legibilidade */
+  margin: 0 auto; /* Centraliza o parágrafo */
+}
+
+.backButton {
+  display: inline-block;
+  margin-top: 20px;
+  padding: 12px 24px; /* Botão maior */
+  background-color: var(--primary-color);
+  color: white;
+  text-decoration: none;
+  border-radius: 8px;
+  font-weight: 500;
+  transition: all 0.2s ease;
+}
+
+.backButton:hover {
+  background-color: #005bb5;
+  transform: translateY(-2px);
+  box-shadow: 0 4px 10px rgba(0, 122, 255, 0.3);
+}
+
+.status {
+  text-align: center;
+  font-size: 1.2rem;
+  padding: 50px;
+  color: var(--text-secondary);
+  background-color: var(--card-background);
+  border-radius: 12px;
+  box-shadow: var(--shadow);
+}
+
+.error {
+  color: var(--error-color);
+  background-color: var(--error-background);
+  border: 1px solid #e5c1c4;
+}
+
+.resultsGrid {
+  display: grid;
+  /* Ajustei o minmax para melhor encaixe em diversas telas */
+  grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+  gap: 30px;
+}
+
+.card {
+  background: var(--card-background);
+  border-radius: 16px; /* Bordas mais arredondadas */
+  padding: 25px 30px;
+  box-shadow: var(--shadow);
+  border: 1px solid #eef2f5; /* Borda sutil */
+  transition: transform 0.2s ease-in-out, box-shadow 0.2s ease-in-out;
+}
+
+.card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 8px 25px rgba(0,0,0,0.1);
+}
+
+.cardTitle {
+  margin-top: 0;
+  border-bottom: 2px solid var(--primary-color);
+  padding-bottom: 10px;
+  margin-bottom: 20px;
+  font-size: 1.2rem;
+  display: flex;
+  align-items: center;
+  gap: 10px; /* Espaço entre o ícone e o texto */
+}
+
+.infoGrid p {
+  display: flex;
+  justify-content: space-between;
+  padding: 12px 0; /* Mais espaçamento vertical */
+  border-bottom: 1px solid #f0f0f0;
+  font-size: 1rem;
+}
+
+.infoGrid p strong {
+    color: var(--text-primary);
+}
+
+.infoGrid p:last-child {
+  border-bottom: none;
+}
+
+.totalCost {
+  font-size: 1.3rem;
+  font-weight: bold;
+  border-top: 1px solid #eee;
+  padding-top: 15px;
+  margin-top: 10px;
+}
+
+.materialList {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.materialList li {
+  padding: 10px 5px;
+  border-bottom: 1px solid #f0f0f0;
+  display: flex;
+  justify-content: space-between;
+}
+
+.materialList li:last-child {
+  border-bottom: none;
+}

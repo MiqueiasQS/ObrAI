@@ -1,0 +1,50 @@
+[
+  {
+    "id_servico": "SERV_01",
+    "nome_servico": "Alvenaria Estrutural",
+    "unidade_medida": "m²",
+    "insumos_necessarios": ["INS_01", "INS_02", "INS_03"]
+  },
+  {
+    "id_servico": "SERV_02",
+    "nome_servico": "Pintura Látex em Parede",
+    "unidade_medida": "m²",
+    "insumos_necessarios": ["INS_04", "INS_05", "INS_06"]
+  },
+  {
+    "id_servico": "SERV_03",
+    "nome_servico": "Instalação de Porcelanato",
+    "unidade_medida": "m²",
+    "insumos_necessarios": ["INS_07", "INS_08"]
+  },
+  {
+    "id_servico": "SERV_04",
+    "nome_servico": "Contrapiso de Concreto",
+    "unidade_medida": "m²",
+    "insumos_necessarios": ["INS_01", "INS_02", "INS_09"]
+  },
+  {
+    "id_servico": "SERV_05",
+    "nome_servico": "Estrutura de Telhado",
+    "unidade_medida": "m²",
+    "insumos_necessarios": ["INS_10", "INS_11", "INS_12"]
+  },
+  {
+    "id_servico": "SERV_06",
+    "nome_servico": "Instalação de Telha Cerâmica",
+    "unidade_medida": "m²",
+    "insumos_necessarios": ["INS_11", "INS_13"]
+  },
+  {
+    "id_servico": "SERV_07",
+    "nome_servico": "Fundação com Sapata Simples",
+    "unidade_medida": "m³",
+    "insumos_necessarios": ["INS_01", "INS_02", "INS_09", "INS_14"]
+  },
+  {
+    "id_servico": "SERV_08",
+    "nome_servico": "Parede Drywall",
+    "unidade_medida": "m²",
+    "insumos_necessarios": ["INS_15", "INS_16", "INS_17", "INS_05"]
+  }
+]

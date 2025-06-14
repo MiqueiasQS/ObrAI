@@ -1,0 +1,86 @@
+.tableContainer {
+  overflow-x: auto; /* Garante que a tabela não quebre o layout em telas pequenas */
+  width: 100%;
+}
+
+.tabelaMateriais {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 16px;
+  font-size: 0.95rem;
+}
+
+.tabelaMateriais th,
+.tabelaMateriais td {
+  padding: 14px 16px;
+  text-align: left;
+  vertical-align: middle;
+}
+
+.tabelaMateriais th {
+  background-color: #ecf0f1;
+  color: #34495e;
+  font-weight: 600;
+  text-transform: uppercase;
+  font-size: 0.85rem;
+  letter-spacing: 0.5px;
+}
+
+.tabelaMateriais tbody tr {
+  border-bottom: 1px solid #ecf0f1;
+  transition: background-color 0.2s ease;
+}
+
+.tabelaMateriais tbody tr:last-child {
+  border-bottom: none;
+}
+
+.tabelaMateriais tbody tr:hover {
+  background-color: #f8f9fa;
+}
+
+.tabelaMateriais td:last-child {
+  font-weight: 600;
+  color: #2c3e50;
+}
+
+/* Para responsividade em telas menores */
+@media (max-width: 768px) {
+  .tabelaMateriais thead {
+    display: none;
+  }
+  
+  .tabelaMateriais, .tabelaMateriais tbody, .tabelaMateriais tr, .tabelaMateriais td {
+    display: block;
+    width: 100%;
+  }
+
+  .tabelaMateriais tr {
+    margin-bottom: 15px;
+    border: 1px solid #ecf0f1;
+    border-radius: 4px;
+  }
+
+  .tabelaMateriais td {
+    text-align: right;
+    padding-left: 50%;
+    position: relative;
+    border: none;
+    border-bottom: 1px solid #ecf0f1;
+  }
+  
+  .tabelaMateriais td::before {
+    content: attr(data-label);
+    position: absolute;
+    left: 10px;
+    width: calc(50% - 20px);
+    padding-right: 10px;
+    text-align: left;
+    font-weight: bold;
+    color: #34495e;
+  }
+
+  .tabelaMateriais td:last-child {
+    border-bottom: none;
+  }
+}

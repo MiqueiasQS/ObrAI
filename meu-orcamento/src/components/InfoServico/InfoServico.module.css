@@ -1,0 +1,5 @@
+/* /src/components/InfoServico/InfoServico.module.css */
+.infoServico p {
+  margin: 8px 0;
+  line-height: 1.6;
+}

@@ -1,0 +1,53 @@
+[
+  {
+    "id_insumo": "INS_01", "descricao": "Cimento CPII-32", "unidade_compra": "Saco 50kg", "preco_unitario": 48.50
+  },
+  {
+    "id_insumo": "INS_02", "descricao": "Areia Média Lavada", "unidade_compra": "Metro Cúbico (m³)", "preco_unitario": 150.00
+  },
+  {
+    "id_insumo": "INS_03", "descricao": "Tijolo Baiano 9 Furos", "unidade_compra": "Milheiro", "preco_unitario": 1300.00, "rendimento_por_unidade": 35, "unidade_rendimento": "m²"
+  },
+  {
+    "id_insumo": "INS_04", "descricao": "Tinta Látex Branca Premium", "unidade_compra": "Lata 18L", "preco_unitario": 350.00, "rendimento_por_unidade": 200, "unidade_rendimento": "m²"
+  },
+  {
+    "id_insumo": "INS_05", "descricao": "Massa Corrida PVA", "unidade_compra": "Lata 25kg", "preco_unitario": 80.00, "rendimento_por_unidade": 40, "unidade_rendimento": "m²"
+  },
+  {
+    "id_insumo": "INS_06", "descricao": "Lixa para Parede Grão 150", "unidade_compra": "Folha", "preco_unitario": 2.50, "rendimento_por_unidade": 5, "unidade_rendimento": "m²"
+  },
+  {
+    "id_insumo": "INS_07", "descricao": "Porcelanato Retificado 80x80", "unidade_compra": "m²", "preco_unitario": 95.00
+  },
+  {
+    "id_insumo": "INS_08", "descricao": "Argamassa ACIII", "unidade_compra": "Saco 20kg", "preco_unitario": 35.00, "rendimento_por_unidade": 4, "unidade_rendimento": "m²"
+  },
+  {
+    "id_insumo": "INS_09", "descricao": "Brita N° 1", "unidade_compra": "Metro Cúbico (m³)", "preco_unitario": 130.00
+  },
+  {
+    "id_insumo": "INS_10", "descricao": "Viga de Madeira Cambará 5x11cm", "unidade_compra": "Metro Linear", "preco_unitario": 18.00
+  },
+  {
+    "id_insumo": "INS_11", "descricao": "Prego 18x27", "unidade_compra": "Kg", "preco_unitario": 15.00
+  },
+  {
+    "id_insumo": "INS_12", "descricao": "Ripa de Madeira Cambará 5x1.5cm", "unidade_compra": "Metro Linear", "preco_unitario": 5.00
+  },
+  {
+    "id_insumo": "INS_13", "descricao": "Telha Cerâmica Romana", "unidade_compra": "Unidade", "preco_unitario": 2.80, "rendimento_por_unidade": 0.0625, "unidade_rendimento": "m²"
+  },
+  {
+    "id_insumo": "INS_14", "descricao": "Vergalhão de Aço CA50 10mm", "unidade_compra": "Barra 12m", "preco_unitario": 65.00
+  },
+  {
+    "id_insumo": "INS_15", "descricao": "Placa de Gesso Acartonado (Drywall)", "unidade_compra": "Unidade (1.20x2.40m)", "preco_unitario": 45.00, "rendimento_por_unidade": 2.88, "unidade_rendimento": "m²"
+  },
+  {
+    "id_insumo": "INS_16", "descricao": "Montante para Drywall 70mm", "unidade_compra": "Barra 3m", "preco_unitario": 22.00
+  },
+  {
+    "id_insumo": "INS_17", "descricao": "Parafuso para Drywall T25", "unidade_compra": "Cento", "preco_unitario": 8.00
+  }
+]

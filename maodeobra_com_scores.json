@@ -1,0 +1,179 @@
+[
+  {
+    "id_profissional": "prof_01",
+    "nome": "Carlos Andrade",
+    "funcao": "Mestre de Obras",
+    "custo_diaria": 450.0,
+    "disponivel": true,
+    "especialidades": []
+  },
+  {
+    "id_profissional": "prof_02",
+    "nome": "Jorge Mendes",
+    "funcao": "Pedreiro",
+    "custo_diaria": 250.0,
+    "disponivel": true,
+    "especialidades": [
+      {
+        "nome": "Alvenaria Estrutural",
+        "score_produtividade": 3.22
+      },
+      {
+        "nome": "Contrapiso de Concreto",
+        "score_produtividade": 3.0
+      }
+    ]
+  },
+  {
+    "id_profissional": "prof_03",
+    "nome": "Ricardo Alves",
+    "funcao": "Pedreiro",
+    "custo_diaria": 220.0,
+    "disponivel": false,
+    "especialidades": [
+      {
+        "nome": "Alvenaria Estrutural",
+        "score_produtividade": 2.65
+      }
+    ]
+  },
+  {
+    "id_profissional": "prof_04",
+    "nome": "Márcio Silva",
+    "funcao": "Eletricista",
+    "custo_diaria": 350.0,
+    "disponivel": true,
+    "especialidades": []
+  },
+  {
+    "id_profissional": "prof_05",
+    "nome": "Felipe Costa",
+    "funcao": "Encanador",
+    "custo_diaria": 320.0,
+    "disponivel": true,
+    "especialidades": []
+  },
+  {
+    "id_profissional": "prof_06",
+    "nome": "Sandro Pereira",
+    "funcao": "Pintor",
+    "custo_diaria": 280.0,
+    "disponivel": true,
+    "especialidades": [
+      {
+        "nome": "Pintura Látex em Parede",
+        "score_produtividade": 3.3
+      }
+    ]
+  },
+  {
+    "id_profissional": "prof_07",
+    "nome": "Roberto Lima",
+    "funcao": "Carpinteiro",
+    "custo_diaria": 290.0,
+    "disponivel": false,
+    "especialidades": [
+      {
+        "nome": "Estrutura de Telhado",
+        "score_produtividade": 3.19
+      },
+      {
+        "nome": "Instalação de Telha Cerâmica",
+        "score_produtividade": 3.37
+      }
+    ]
+  },
+  {
+    "id_profissional": "prof_08",
+    "nome": "Daniel Souza",
+    "funcao": "Armador",
+    "custo_diaria": 260.0,
+    "disponivel": true,
+    "especialidades": []
+  },
+  {
+    "id_profissional": "prof_09",
+    "nome": "Lucas Martins",
+    "funcao": "Gesseiro",
+    "custo_diaria": 240.0,
+    "disponivel": true,
+    "especialidades": [
+      {
+        "nome": "Parede Drywall",
+        "score_produtividade": 3.0
+      }
+    ]
+  },
+  {
+    "id_profissional": "prof_10",
+    "nome": "João Ferreira",
+    "funcao": "Servente",
+    "custo_diaria": 150.0,
+    "disponivel": true,
+    "especialidades": []
+  },
+  {
+    "id_profissional": "prof_11",
+    "nome": "André Neves",
+    "funcao": "Azulejista",
+    "custo_diaria": 280.0,
+    "disponivel": true,
+    "especialidades": [
+      {
+        "nome": "Instalação de Porcelanato",
+        "score_produtividade": 3.0
+      }
+    ]
+  },
+  {
+    "id_profissional": "prof_12",
+    "nome": "Bruno Rocha",
+    "funcao": "Pedreiro",
+    "custo_diaria": 230.0,
+    "disponivel": true,
+    "especialidades": [
+      {
+        "nome": "Contrapiso de Concreto",
+        "score_produtividade": 3.0
+      }
+    ]
+  },
+  {
+    "id_profissional": "prof_13",
+    "nome": "Gabriel Bastos",
+    "funcao": "Ajudante Geral",
+    "custo_diaria": 160.0,
+    "disponivel": true,
+    "especialidades": []
+  },
+  {
+    "id_profissional": "prof_14",
+    "nome": "Vinicius Moraes",
+    "funcao": "Pintor",
+    "custo_diaria": 260.0,
+    "disponivel": false,
+    "especialidades": [
+      {
+        "nome": "Pintura Látex em Parede",
+        "score_produtividade": 2.75
+      }
+    ]
+  },
+  {
+    "id_profissional": "prof_15",
+    "nome": "Diego Santos",
+    "funcao": "Carpinteiro",
+    "custo_diaria": 310.0,
+    "disponivel": true,
+    "especialidades": [
+      {
+        "nome": "Estrutura de Telhado",
+        "score_produtividade": 2.83
+      },
+      {
+        "nome": "Instalação de Telha Cerâmica",
+        "score_produtividade": 2.7
+      }
+    ]
+  }
+]
