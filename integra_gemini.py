@@ -3,14 +3,10 @@ from flask import Flask, request, jsonify
 from flask_cors import CORS
 import json
 
-# --- 1. CONFIGURAÇÃO INICIAL (Exatamente como no seu código) ---
-# Substitua pela sua chave de API
-genai.configure(api_key="AIzaSyAvYa1Vy7J7xHzi41s_IKgY1xIa_339tQY")
+genai.configure(api_key="api_key")
 
-# Inicializa o modelo Gemini
 model = genai.GenerativeModel('gemini-1.5-flash')
 
-# Inicializa a aplicação Flask e habilita o CORS
 app = Flask(__name__)
 CORS(app)
 
